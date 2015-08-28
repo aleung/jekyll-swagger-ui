@@ -10,8 +10,6 @@ This plugin integrates Swagger UI into Jekyll site. API document can be generate
 
 Download or clone swagger-ui code from [Swagger GitHub project](https://github.com/swagger-api/swagger-ui). Copy swagger-ui's `dist` folder to your Jekyll site and rename to `swagger-ui`.
 
-_Note (2015-4-3)_: The latest release of swagger-ui doesn't work in Jekyll because of issue [#1069](https://github.com/swagger-api/swagger-ui/issues/1069). Before the pull request is merged and released, you can download a workable version from [here](https://github.com/aleung/swagger-ui/releases/tag/tmp_20150403). 
-
 ### Plugin
 
 Put `swagger_ui.rb` in `/_plugins/` (for Jekyll) or `/plugins/` (for Octopress) directory.
